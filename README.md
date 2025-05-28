@@ -1,9 +1,3 @@
-HEAD
-
-# jobportal-frontend
-
-A modern job portal frontend built with React, Vite, and Tailwind CSS. Features role-based dashboards, job listing, and application management.
-
 # Job Portal Frontend
 
 A modern and responsive job portal frontend built with **React**, **Vite**, and **Tailwind CSS**. This frontend connects to a Spring Boot backend to provide job seekers and employers with a seamless experience.
@@ -38,5 +32,4 @@ A modern and responsive job portal frontend built with **React**, **Vite**, and 
 ```bash
 git clone https://github.com/<your-username>/jobportal-frontend.git
 cd jobportal-frontend
-6729ca7 (first commit)
 ```
