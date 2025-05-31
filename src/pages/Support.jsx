@@ -18,11 +18,6 @@ export default function Support() {
     e.preventDefault();
     setSubmitting(true);
 
-    if (!name || !email || !message) {
-      toast.error("Please fill in all fields.");
-      return;
-    }
-
     try {
       const response = await fetch(
         "https://proactive-caring-production.up.railway.app/support",
