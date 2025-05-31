@@ -7,6 +7,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import Unauthorized from "./pages/Unauthorized";
 import Dashboard from "./pages/EmployerDashboard";
 import JobSeekerDashboard from "./pages/JobSeekerDashBoard";
+import Support from "./pages/Support";
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-slate-200">
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/unauthorized" element={<Unauthorized />} />
+        <Route path="/support" element={<Support />} />
         {/* ✅ Protected Routes */}
         <Route
           path="/dashboard"

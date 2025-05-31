@@ -12,7 +12,7 @@ export default function LandingPage() {
           JobPortal
         </h1>
         <nav className="space-x-6 text-gray-600 font-medium">
-          <a href="#support" className="hover:text-blue-700 transition">
+          <a href="/support" className="hover:text-blue-700 transition">
             Support
           </a>
           <a href="/login" className="hover:text-blue-700 transition">
